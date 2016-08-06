@@ -11,3 +11,16 @@ function average(arr) {
     console.log(myAvg);
     return myAvg;
 }
+
+// Using a foreach loop with the variables stored inside the function
+
+function average(arr) {
+    var total = 0;
+    arr.forEach(function(arr){
+        total += arr;
+    });
+    var avg = Math.ceil(total / arr.length);
+    console.log(avg);
+    return avg;
+    }
+
