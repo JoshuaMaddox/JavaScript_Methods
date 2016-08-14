@@ -10,7 +10,7 @@ var objectLiteral = {
 console.log(JSON.stringify(objectLiteral));
 
 //Sets the variable jsonValue to a JavaScript Object using JSON.parse
-var jsonValue = JSON.parse({"firstName":"Mary","isAProgrammer":true});
+var jsonValue = JSON.parse('{"firstName":"Mary","isAProgrammer":true}');
 
 console.log(jsonValue);
 
